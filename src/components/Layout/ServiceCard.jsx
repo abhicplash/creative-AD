@@ -1,6 +1,5 @@
 import React from "react";
 import "./ServiceCard.css";
-import cardimage from "../../assets/services/flyrs.jpg";
 
 const ServiceCard = ({service,image}) => {
   return (
