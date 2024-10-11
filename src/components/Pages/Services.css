@@ -1,3 +1,15 @@
-.service-list-container{
-    width: 100%;
+.service-list-container {
+  width: 100%;
+}
+.service-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+@media (max-width: 768px) {
+  .service-list-container {
+    gap: 0.5rem;
+  }
 }
