@@ -1,0 +1,27 @@
+.opinion-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--white);
+}
+.pagetopabout {
+  width: 100%;
+  height: 60vh;
+  background: url("../../assets/about/about.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--wheat);
+  position: relative;
+}
+.pagetopabout h1 {
+  position: relative;
+  z-index: 80;
+}
+.aboutpageshadow {
+  position: absolute;
+  width: 100%;
+  height: 60vh;
+  background-color: #13375747;
+}
