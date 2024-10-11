@@ -33,6 +33,7 @@
     font-family: inherit;
     font-size: 1.2rem;
     border: 1px solid var(--darkblue);
+    margin-top: 3rem;
 }
 .HomeService-container button:hover {
     background-color: transparent;
